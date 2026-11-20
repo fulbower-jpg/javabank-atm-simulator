@@ -1,0 +1,35 @@
+# Maven build output
+target/
+*.war
+*.jar
+*.class
+
+# IDE files
+.idea/
+*.iml
+.eclipse/
+.classpath
+.project
+.settings/
+*.iws
+*.ipr
+
+# VS Code
+.vscode/
+
+# Node (AI Studio wrapper - not part of the project)
+node_modules/
+dist/
+build/
+coverage/
+
+# Environment files
+.env
+.env.local
+.env*.local
+!.env.example
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
